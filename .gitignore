@@ -4,3 +4,14 @@ __pycache__/
 db.sqlite3
 .env
 staticfiles/
+# Variables de entorno y credenciales
+.env
+.env.*
+!.env.example
+
+# Archivos locales de Python
+__pycache__/
+*.pyc
+
+# Configuracion local de Postman
+postman/globals/
